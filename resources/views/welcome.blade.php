@@ -208,7 +208,7 @@
     <div class="latest-wrapper">
         <div class="container">
             <div class="latest-area latest-height  section-bg2"
-                data-background="assets/img/gallery/section_bg01.png">
+                data-background="{{asset('img/gallery/section_bg01.png')}}">
                 <div class="row  align-items-center justify-content-between">
                     <div class="col-xl-5 col-lg-7">
                         <div class="latest-caption">
@@ -271,7 +271,7 @@
                 <div class="col-lg-5 col-md-11 col-sm-11">
                     <!-- about-img -->
                     <div class="about-img2">
-                        <img src="assets/img/gallery/about2.png" alt="">
+                        <img src="{{asset('img/gallery/about2.png')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -285,7 +285,6 @@
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-8 col-md-10 col-sm-10">
                     <div class="section-tittle text-center mb-90">
-                        <span>Our pricing plan for you</span>
                         <h2>No hidden charges! choose your plan wisely.</h2>
                     </div>
                 </div>
@@ -295,7 +294,7 @@
                     <div class="home-blog-single mb-30">
                         <div class="blog-img-cap">
                             <div class="blog-img">
-                                <img src="assets/img/gallery/home-blog1.png" alt="">
+                                <img src="{{asset('img/gallery/home-blog1.png')}}" alt="">
                             </div>
                             <div class="blog-cap">
                                 <h3><a href="blog_details.html">The purpose of lolght invera jgrlie.</a></h3>
@@ -308,7 +307,7 @@
                     <div class="home-blog-single mb-30">
                         <div class="blog-img-cap">
                             <div class="blog-img">
-                                <img src="assets/img/gallery/home-blog2.png" alt="">
+                                <img src="{{asset('img/gallery/home-blog2.png')}}" alt="">
                             </div>
                             <div class="blog-cap">
                                 <h3><a href="blog_details.html">The purpose of lolght invera jgrlie.</a></h3>
@@ -321,7 +320,7 @@
                     <div class="home-blog-single mb-30">
                         <div class="blog-img-cap">
                             <div class="blog-img">
-                                <img src="assets/img/gallery/home-blog3.png" alt="">
+                                <img src="{{asset('img/gallery/home-blog3.png')}}" alt="">
                             </div>
                             <div class="blog-cap">
                                 <h3><a href="blog_details.html">The purpose of lolght invera jgrlie.</a></h3>

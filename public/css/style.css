@@ -1,11 +1,11 @@
-/* Theme Description
+/* Description
 -------------------------------------------------
 
-	  Theme Name:
-	  Author:
-	  Support:
+	  Theme Name: tensooh media
+	  Author: alexander morales
+	  Support: jino0000morales0000@gmail.com
 	  Description:
-	  Version:
+	  Version: v1
 
 -------------------------------------------------
 */
@@ -29,21 +29,12 @@
 */
 
 
-/*--------------- ---- Responsive --------------------------*/
-
-
 /*-------------   Color Variable  --------------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800;900&display=swap");
-
-/* line 33, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_color.scss */
-
 .white-bg {
     background: #ffffff;
 }
-
-
-/* line 36, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_color.scss */
 
 .gray-bg {
     background: #f5f5f5;
@@ -55,22 +46,13 @@
 
 /*-- Background color---*/
 
-
-/* line 60, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_color.scss */
-
 .gray-bg {
     background: #f7f7fd;
 }
 
-
-/* line 63, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_color.scss */
-
 .white-bg {
     background: #ffffff;
 }
-
-
-/* line 66, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_color.scss */
 
 .black-bg {
     background: #16161a;
