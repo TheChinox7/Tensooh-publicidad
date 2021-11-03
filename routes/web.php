@@ -18,10 +18,6 @@ route::get('/',[HomeController::class, 'index'])->name('home');
 
 route::get('/sobre nosotros',[HomeController::class, 'about'])->name('about');
 
-route::get('/',[HomeController::class, 'index'])->name('home');
-
-route::get('/',[HomeController::class, 'index'])->name('home');
+route::get('/contacto',[HomeController::class, 'contact'])->name('contact');
 
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -85,8 +85,8 @@
                                             <ul id="navigation">
                                                 <li><a href="{{ route('home') }}">Inicio</a></li>
                                                 <li><a href="{{ route('about') }}">Sobre Nosotros</a></li>
-                                                <li><a href="">Trabajos</a></li>
-                                                <li><a href="">Contacto</a>
+                                                <li><a href="#">Trabajos <span class="badge badge-danger">Pronto</span></a></li>
+                                                <li><a href="{{ route('contact') }}">Contacto</a>
                                                     <ul class="submenu">
                                                         <li><a href="">Blog</a></li>
                                                         <li><a href="">Blog Details</a></li>
