@@ -21,9 +21,7 @@
     <!--?  Contact Area start  -->
     <section class="contact-section">
         <div class="container">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d249.32607916805432!2d-77.81340028162884!3d-0.9945420344259904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b31bc23295edb66!2sCRESER%20sistemas!5e0!3m2!1ses!2sus!4v1635954322734!5m2!1ses!2sus"
-                width="1170" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
             <div class="d-none d-sm-block mb-5 pb-4">
                 <div id="map" style="height: 480px; position: relative; overflow: hidden;">
                     <div
