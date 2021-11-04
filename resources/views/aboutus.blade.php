@@ -19,7 +19,7 @@
     </div>
     <!-- Hero End -->
     <!--? About 1 Start-->
-    <section class="about-low-area section-padding2">
+    <section class="about-low-area pt-20">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-5 col-lg-6 col-md-9">
@@ -46,29 +46,7 @@
     </section>
     <!-- About  End-->
     <!--? Brand Area Start -->
-    <!-- Latest Offers Start -->
-    <div class="latest-wrapper latest-wrapper2">
-        <div class="container">
-            <div class="latest-area latest-height  section-bg2" data-background="{{asset('img/gallery/section_bg01.png')}}">
-                <div class="row  align-items-center justify-content-between">
-                    <div class="col-xl-5 col-lg-7">
-                        <div class="latest-caption">
-                            <h2>Check our unbelievable super fast Broadband availability in your area.</h2>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-5 col-md-10 ">
-                        <div class="latest-subscribe">
-                            <form action="#">
-                                <input type="email" placeholder="Enter Zipcode">
-                                <button>Check Now</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Latest Offers End -->
+
     <!--? About-2 Area Start -->
     <section class="about-area2 testimonial-area section-padding30 fix">
         <div class="container">

@@ -85,7 +85,7 @@
                                             <ul id="navigation">
                                                 <li><a href="{{ route('home') }}">Inicio</a></li>
                                                 <li><a href="{{ route('about') }}">Sobre Nosotros</a></li>
-                                                <li><a href="#">Trabajos <span class="badge badge-danger">Pronto</span></a></li>
+                                                <li><a href="#">Trabajos <span class="badge badge-danger">pronto</span></a></li>
                                                 <li><a href="{{ route('contact') }}">Contacto</a>
                                                     <ul class="submenu">
                                                         <li><a href="">Blog</a></li>
@@ -135,31 +135,29 @@
                             <div class="single-footer-caption mb-50">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="{{ asset('img/logo/logo.png') }}"
+                                    <a href="{{route('home')}}"><img src="{{ asset('img/logo/logo.png') }}"
                                             style="width: 75%;" alt=""></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p class="info1">Receive updates and latest news direct from Simply
-                                            enter.</p>
+                                        <p class="info1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
                                 <div class="footer-number">
-                                    <h4><span>+564 </span>7885 3222</h4>
-                                    <p>youremail@gmail.com</p>
+                                    <h4><span>+593 </span>0985256355</h4>
+                                    <p>prueba@prueba.com</p>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>Our Support</h4>
+                                    <h4>Enlaces Rapidos</h4>
                                     <ul>
-                                        <li><a href="#">Advanced</a></li>
-                                        <li><a href="#"> Management</a></li>
-                                        <li><a href="#">Corporate</a></li>
-                                        <li><a href="#">Customer</a></li>
-                                        <li><a href="#">Information</a></li>
+                                        <li><a href="{{route('home')}}">Inicio</a></li>
+                                        <li><a href="{{route('about')}}">Sobre Nosotros</a></li>
+                                        <li><a href="{{route('contact')}}">Contacto</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -167,43 +165,12 @@
                         <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>Quick Link</h4>
+                                    <h4>Enlaces Rapidos</h4>
                                     <ul>
-                                        <li><a href="#">New Law</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Licenses</a></li>
+                                        <li><a href="{{route('home')}}">Inicio</a></li>
+                                        <li><a href="{{route('about')}}">Sobre Nosotros</a></li>
+                                        <li><a href="{{route('contact')}}">Contacto</a></li>
                                     </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Newslatter</h4>
-                                    <div class="footer-pera">
-                                        <p class="info1">Subscribe now to get daily updates</p>
-                                    </div>
-                                </div>
-                                <!-- Form -->
-                                <div class="footer-form">
-                                    <div id="mc_embed_signup">
-                                        <form target="_blank"
-                                            action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                                            method="get" class="subscribe_form relative mail_part" novalidate="true">
-                                            <input type="email" name="EMAIL" id="newsletter-form-email"
-                                                placeholder=" Email Address " class="placeholder hide-on-focus"
-                                                onfocus="this.placeholder = ''"
-                                                onblur="this.placeholder = 'Your email address'">
-                                            <div class="form-icon">
-                                                <button type="submit" name="submit" id="newsletter-submit"
-                                                    class="email_icon newsletter-submit button-contactForm">
-                                                    Send
-                                                </button>
-                                            </div>
-                                            <div class="mt-10 info"></div>
-                                        </form>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -227,8 +194,7 @@
                             <!-- Footer Social -->
                             <div class="footer-social f-right">
                                 <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>

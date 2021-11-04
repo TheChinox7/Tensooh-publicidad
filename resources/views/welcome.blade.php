@@ -21,26 +21,6 @@
                                     eiusmod tempor incididunt ufrot bore et dolore magnt, sed do eiusmod.</P>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn">
-                                    <a href="industries.html" class="btn hero-btn mb-10" data-animation="fadeInUp"
-                                        data-delay=".8s">View Packages</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Slider -->
-            <div class="single-slider slider-height d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-7 col-lg-6 col-md-8 col-sm-10">
-                            <div class="hero__caption">
-                                <h1 data-animation="fadeInUp" data-delay=".4s">Dont't suffer the buffer, get super
-                                    internet.</h1>
-                                <P data-animation="fadeInUp" data-delay=".6s">Onsectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ufrot bore et dolore magnt, sed do eiusmod.</P>
-                                <!-- Hero-btn -->
-                                <div class="hero__btn">
                                     <a href="#about1" class="btn hero-btn mb-10" data-animation="fadeInUp"
                                         data-delay=".8s">Explorar</a>
                                 </div>
@@ -49,6 +29,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Single Slider -->
         </div>
     </div>
     <!-- slider Area End-->
@@ -73,14 +54,14 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore
                             et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p>
                     </div>
-                    <a href="about.html" class="btn">Sobre Nosotros</a>
+                    <a href="{{route('about')}}" class="btn">Sobre Nosotros</a>
                 </div>
             </div>
         </div>
     </section>
     <!-- About  End-->
     <!--? service Area Start -->
-    <section class="service-area pb-bottom">
+    <section class="service-area">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-6 col-md-9">
@@ -88,8 +69,8 @@
                     <div class="section-tittle section-tittle2 mb-50">
                         <h2 class="mb-35">Mission is to bring all the power of every business.</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore
-                            et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p>
-                        <a href="#" class="btn  mt-30">View Packages</a>
+                            et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nam est voluptatum magni quia nobis pariatur magnam commodi dolor, quaerat, nemo ex natus consectetur. Repellat eveniet ullam labore libero optio!</p>
+
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -210,74 +191,17 @@
             <div class="latest-area latest-height  section-bg2"
                 data-background="{{asset('img/gallery/section_bg01.png')}}">
                 <div class="row  align-items-center justify-content-between">
-                    <div class="col-xl-5 col-lg-7">
+                    <div class="col-xl-12 col-lg-12">
                         <div class="latest-caption">
                             <h2>Check our unbelievable super fast Broadband availability in your area.</h2>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-5 col-md-10 ">
-                        <div class="latest-subscribe">
-                            <form action="#">
-                                <input type="email" placeholder="Enter Zipcode">
-                                <button>Check Now</button>
-                            </form>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
     <!-- Latest Offers End -->
-    <!--? About-2 Area Start -->
-    <section class="about-area2 testimonial-area section-padding30 fix">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class=" col-lg-6 col-md-9 col-sm-9">
-                    <div class="about-caption">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle mb-55">
-                            <h2>What our clint think about us!</h2>
-                        </div>
-                        <!-- Testimonial Start -->
-                        <div class="h1-testimonial-active">
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial">
-                                <div class="testimonial-caption">
-                                    <p>Brook presents your services with flexible, convenient and cdpose layouts.
-                                        You can select your favorite layouts & elements for cular ts with unlimited
-                                        ustomization possibilities. Pixel-perfect replica;ition of thei designers
-                                        ijtls intended csents your se.</p>
-                                    <div class="rattiong-caption">
-                                        <span>Jhon Smith<span>Gym Trainer</span> </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial">
-                                <div class="testimonial-caption">
-                                    <p>Brook presents your services with flexible, convenient and cdpose layouts.
-                                        You can select your favorite layouts & elements for cular ts with unlimited
-                                        ustomization possibilities. Pixel-perfect replica;ition of thei designers
-                                        ijtls intended csents your se.</p>
-                                    <div class="rattiong-caption">
-                                        <span>Jhon Smith<span>Gym Trainer</span> </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Testimonial End -->
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-11 col-sm-11">
-                    <!-- about-img -->
-                    <div class="about-img2">
-                        <img src="{{asset('img/gallery/about2.png')}}" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About-2 Area End -->
     <!--? Blog Area Start -->
     <section class="home-blog-area section-padding30">
         <div class="container">
