@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,5 +20,7 @@ route::get('/',[HomeController::class, 'index'])->name('home');
 route::get('/sobre nosotros',[HomeController::class, 'about'])->name('about');
 
 route::get('/contacto',[HomeController::class, 'contact'])->name('contact');
+
+route::get('/contactanos',[HomeController::class, 'mensaje'])->name('mensaje');
 
 Auth::routes();

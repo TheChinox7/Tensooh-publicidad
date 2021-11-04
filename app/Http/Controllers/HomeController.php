@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Mail\ContatoMail;
 
 class HomeController extends Controller
 {
@@ -20,4 +20,10 @@ class HomeController extends Controller
     {
         return view('contacto');
     }
+
+    public function mensaje()
+    {
+       $correo = new ContatoMail;
+    }
+
 }
