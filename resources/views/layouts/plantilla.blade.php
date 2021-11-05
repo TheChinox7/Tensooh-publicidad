@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/favicon.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -44,40 +44,18 @@
         <!-- Header Start -->
         <div class="header-area header-transparent">
             <div class="main-header ">
-                <div class="header-top d-none d-lg-block">
-                    <div class="container-fluid">
-                        <div class="col-xl-12">
-                            <div class="row d-flex justify-content-between align-items-center">
-                                <div class="header-info-left d-flex">
-                                    <ul>
-                                        <li><a class="text-dark" href="tel:+34678567876">+593 98123123</a></li>
-                                        <li><a class="text-dark"
-                                                href="mailto:prueba@correo.com">prueba@correo.com</a></li>
-                                    </ul>
-                                    <div class="header-social">
-                                        <ul>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="header-bottom  header-sticky">
                     <div class="container-fluid">
                         <div class="row align-items-center">
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="{{ route('home') }}"><img src="{{ asset('img/logo/logo11.png') }}"
-                                            alt=""></a>
+                                    <a href="{{ route('home') }}"><img src="{{ asset('img/logo/logo.png') }}"
+                                            style="width: 100%" alt=""></a>
                                 </div>
                             </div>
-                            <div class="col-xl-10 col-lg-10">
+                            <div class="col-xl-10 col-lg-10 text-white">
                                 <div class="menu-wrapper  d-flex align-items-center justify-content-end">
                                     <!-- Main-menu -->
                                     <div class="main-menu d-none d-lg-block">
@@ -85,14 +63,9 @@
                                             <ul id="navigation">
                                                 <li><a href="{{ route('home') }}">Inicio</a></li>
                                                 <li><a href="{{ route('about') }}">Sobre Nosotros</a></li>
-                                                <li><a href="#">Trabajos <span class="badge badge-danger">pronto</span></a></li>
-                                                <li><a href="{{ route('contact') }}">Contacto</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="">Blog</a></li>
-                                                        <li><a href="">Blog Details</a></li>
-                                                        <li><a href="">Element</a></li>
-                                                    </ul>
-                                                </li>
+                                                <li><a href="#">Trabajos <span
+                                                            class="badge badge-danger">pronto</span></a></li>
+                                                <li><a href="{{ route('contact') }}">Contacto</a></li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -105,6 +78,31 @@
                             <!-- Mobile Menu -->
                             <div class="col-12">
                                 <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom2">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+
+                            <div class="col-12">
+                                <div class="d-flex align-items-center justify-content-center text-80px">
+                                    <!-- Main-menu -->
+                                    <div class="main-menu d-none d-lg-block">
+                                        <nav>
+                                            <ul id="navigation">
+                                                <li><a class="redes" href=""><i class="far fa-envelope"></i> info@tensooh.com</a></li>
+                                                <li><a class="redes" href=""><i class="fas fa-tty"></i> (06) 2313021</a></li>
+                                                <li><a class="redes" href="#"><i class="fas fa-mobile-alt"></i> 0985453983</a></li>
+                                                <li><a class="redes" href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a class="redes" href=""><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a class="redes" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                <li><a class="redes" href="#"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -127,7 +125,7 @@
 
     <footer>
         <!--? Footer Start-->
-        <div class="footer-area section-bg" data-background="{{ asset('img/gallery/footer_bg.png') }}">
+        <div class="footer-area section-bg" data-background="{{ asset('img/gallery/footer_b.png') }}">
             <div class="container">
                 <div class="footer-top footer-padding">
                     <div class="row d-flex justify-content-between">
@@ -135,12 +133,13 @@
                             <div class="single-footer-caption mb-50">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="{{route('home')}}"><img src="{{ asset('img/logo/logo.png') }}"
+                                    <a href="{{ route('home') }}"><img src="{{ asset('img/logo/logo.png') }}"
                                             style="width: 75%;" alt=""></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p class="info1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        <p class="info1">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                            elit.</p>
                                     </div>
                                 </div>
                                 <div class="footer-number">
@@ -155,9 +154,9 @@
                                 <div class="footer-tittle">
                                     <h4>Enlaces Rapidos</h4>
                                     <ul>
-                                        <li><a href="{{route('home')}}">Inicio</a></li>
-                                        <li><a href="{{route('about')}}">Sobre Nosotros</a></li>
-                                        <li><a href="{{route('contact')}}">Contacto</a></li>
+                                        <li><a href="{{ route('home') }}">Inicio</a></li>
+                                        <li><a href="{{ route('about') }}">Sobre Nosotros</a></li>
+                                        <li><a href="{{ route('contact') }}">Contacto</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -167,9 +166,9 @@
                                 <div class="footer-tittle">
                                     <h4>Enlaces Rapidos</h4>
                                     <ul>
-                                        <li><a href="{{route('home')}}">Inicio</a></li>
-                                        <li><a href="{{route('about')}}">Sobre Nosotros</a></li>
-                                        <li><a href="{{route('contact')}}">Contacto</a></li>
+                                        <li><a href="{{ route('home') }}">Inicio</a></li>
+                                        <li><a href="{{ route('about') }}">Sobre Nosotros</a></li>
+                                        <li><a href="{{ route('contact') }}">Contacto</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -215,6 +214,7 @@
     </div>
 
     <!-- JS here -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 
     <script src="{{ asset('js/vendor/modernizr-3.5.0.min.js') }}"></script>
@@ -257,6 +257,11 @@
     <!-- Jquery Plugins, main Jquery -->
     <script src="{{ asset('js/plugins.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+
+
+
+
+
 
 </body>
 

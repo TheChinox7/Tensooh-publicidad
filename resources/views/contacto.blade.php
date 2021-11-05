@@ -21,12 +21,7 @@
     <!--?  Contact Area start  -->
     <section class="contact-section pt-5">
         <div class="container">
-            <div class="d-none d-sm-block mb-5 pb-4">
-                <div id="map" style="height: 480px; position: relative; overflow: hidden;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1677.260461668595!2d-77.81437417102276!3d-0.9921541003886567!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d6a4360e7aa5e5%3A0x2ad329c7770ea747!2sMalec%C3%B3n%20Esc%C3%A9nico%20de%20Tena!5e0!3m2!1ses!2sus!4v1636011136485!5m2!1ses!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
 
-            </div>
 
             <div class="row">
                 <div class="col-12">
