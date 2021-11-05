@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\ContatoMail;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -23,7 +24,7 @@ class HomeController extends Controller
 
     public function mensaje()
     {
-       $correo = new ContatoMail;
+       $correo = new ContactoMail;
     }
 
 }
