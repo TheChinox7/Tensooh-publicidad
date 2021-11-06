@@ -50,13 +50,13 @@
                     <div class="col-xl-6 col-lg-6 col-md-10">
                         <div class="about-caption mb-50">
                             <!-- Section Tittle -->
-                            <div class="section-tittle mb-35">
+                            <div class="section-tittle mb-45">
                                 <span>tenso</span>
                                 <h4>We listen and work together for Great experience.</h4>
                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p> -->
                             </div>
-                            <div class="section-tittle mb-35">
-                                <span>tenso</span>
+                            <div class="section-tittle mb-35 ">
+                                <span>ooh</span>
                                 <h4>We listen and work together for Great experience.</h4>
                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p> -->
                             </div>
@@ -111,12 +111,39 @@
                         </div>
                     </div>
                 </div>
+                <!-- Brand Area Start -->
+                <div class="brand-area>
+                    <div class="container">
+                        <div class="brand-active mt-25 mb-25">
+                            <div class="single-brand">
+                                <img src="{{asset('img/gallery/brand1.png')}}" alt="">
+                            </div>
+                            <div class="single-brand">
+                                <img src="{{asset('img/gallery/brand2.png')}}" alt="">
+                            </div>
+                            <div class="single-brand">
+                                <img src="{{asset('img/gallery/brand3.png')}}" alt="">
+                            </div>
+                            <div class="single-brand">
+                                <img src="{{asset('img/gallery/brand4.png')}}" alt="">
+                            </div>
+                            <div class="single-brand">
+                                <img src="{{asset('img/gallery/brand2.png')}}" alt="">
+                            </div>
+                            <div class="single-brand">
+                                <img src="{{asset('img/gallery/brand3.png')}}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Brand Area End -->
             </div>
         </section>
         <!-- service Area End -->
         <!--? Pricing Card Start -->
         <section class="pricing-card-area section-padding2">
             <div class="container">
+
                 <!-- Section Tittle -->
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-8 col-md-10 col-sm-10">

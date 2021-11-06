@@ -51,8 +51,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="{{ route('home') }}"><img src="{{ asset('img/logo/logo.png') }}"
-                                            style="width: 100%" alt=""></a>
+                                    <a href="{{ route('home') }}"><img src="{{ asset('img/logo/logopubli.png') }}" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-10 col-lg-10 text-white">
@@ -71,7 +70,7 @@
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-30">
-                                        <a href="" class="btn header-btn">Whatsapp</a>
+                                        <a href="https://wa.me/message/22BUM4VZA7HOO1" class="btn header-btn">Whatsapp</a>
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +124,7 @@
 
     <footer>
         <!--? Footer Start-->
-        <div class="footer-area section-bg" data-background="{{ asset('img/gallery/footer_b.png') }}">
+        <div class="footer-area section-bg">
             <div class="container">
                 <div class="footer-top footer-padding">
                     <div class="row d-flex justify-content-between">
