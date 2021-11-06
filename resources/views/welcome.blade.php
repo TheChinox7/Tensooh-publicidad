@@ -51,14 +51,16 @@
                         <div class="about-caption mb-50">
                             <!-- Section Tittle -->
                             <div class="section-tittle mb-35">
-                                <span></span>
-                                <h2>We listen and work together for Great experience.</h2>
+                                <span>tenso</span>
+                                <h4>We listen and work together for Great experience.</h4>
                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p> -->
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore
-                                et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p>
+                            <div class="section-tittle mb-35">
+                                <span>tenso</span>
+                                <h4>We listen and work together for Great experience.</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p> -->
+                            </div>
                         </div>
-                        <a href="{{ route('about') }}" class="btn">Sobre Nosotros</a>
                     </div>
                 </div>
             </div>
