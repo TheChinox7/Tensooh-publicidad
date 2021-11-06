@@ -11,7 +11,7 @@
             <div class="slider-active">
                 <!-- Single Slider -->
                 <div class="single-slider slider-height d-flex align-items-center">
-                    <div class="container mt-75">
+                    <div class="container">
                         <div class="row">
                             <div class="col-xl-7 col-lg-6 col-md-8 col-sm-10">
                                 <div class="hero__caption">

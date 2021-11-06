@@ -94,7 +94,7 @@
                                             <ul id="navigation">
                                                 <li><a class="redes" href=""><i class="far fa-envelope"></i> info@tensooh.com</a></li>
                                                 <li><a class="redes" href=""><i class="fas fa-tty"></i> (06) 2313021</a></li>
-                                                <li><a class="redes" href="#"><i class="fas fa-mobile-alt"></i> 0985453983</a></li>
+                                                <li><a class="redes" href="#"><i class="fas fa-mobile-alt"></i> +593 0985453983</a></li>
                                                 <li><a class="redes" href="#"><i class="fab fa-twitter"></i></a></li>
                                                 <li><a class="redes" href=""><i class="fab fa-facebook-f"></i></a></li>
                                                 <li><a class="redes" href="#"><i class="fab fa-linkedin-in"></i></a></li>
