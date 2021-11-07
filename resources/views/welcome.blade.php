@@ -55,11 +55,7 @@
                                 <h4>We listen and work together for Great experience.</h4>
                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p> -->
                             </div>
-                            <div class="section-tittle mb-35 ">
-                                <span>ooh</span>
-                                <h4>We listen and work together for Great experience.</h4>
-                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p> -->
-                            </div>
+
                         </div>
                     </div>
                 </div>
