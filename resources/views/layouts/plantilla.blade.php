@@ -28,7 +28,7 @@
 </head>
 
 <body>
-    <!-- ? Preloader Start -->
+    <!-- ? Preloader Start
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
@@ -38,7 +38,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Preloader Start -->
     <header>
         <!-- Header Start -->
@@ -46,20 +46,30 @@
             <div class="main-header ">
 
                 <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
+                    <div class="container-fluid ">
                         <div class="row align-items-center">
                             <!-- Logo -->
-                            <div class="col-xl-2 col-lg-2">
+                            <div class="col-xl-3 col-lg-3 m-0 p-0 fondologo">
                                 <div class="logo">
-                                    <a href="{{ route('home') }}"><img src="{{ asset('img/logo/logopubli.png') }}" alt=""></a>
+                                    <a href="{{ route('home') }}"><img src="{{ asset('img/logo/logopubli.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
-                            <div class="col-xl-10 col-lg-10 text-white">
+                            <div class="col-xl-9 col-lg-9 justify-content-end bg-white m-0 navi">
                                 <div class="menu-wrapper  d-flex align-items-center justify-content-end">
                                     <!-- Main-menu -->
                                     <div class="main-menu d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
+                                                <li><a href="{{ route('home') }}"><i
+                                                            class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="{{ route('home') }}"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li><a href="{{ route('home') }}"><i class="fab fa-youtube"></i></a>
+                                                </li>
+                                                <li><a href="{{ route('home') }}"><i
+                                                            class="fab fa-instagram"></i></a></li>
+                                                <li><a href="{{ route('home') }}"></a></li>
                                                 <li><a href="{{ route('home') }}">Inicio</a></li>
                                                 <li><a href="{{ route('about') }}">Sobre Nosotros</a></li>
                                                 <li><a href="#">Trabajos <span
@@ -70,7 +80,8 @@
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-30">
-                                        <a href="https://wa.me/message/22BUM4VZA7HOO1" class="btn header-btn">Whatsapp</a>
+                                        <a href="https://wa.me/message/22BUM4VZA7HOO1"
+                                            class="btn header-btn">Whatsapp</a>
                                     </div>
                                 </div>
                             </div>
@@ -81,38 +92,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="header-bottom2">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-
-                            <div class="col-12">
-                                <div class="d-flex align-items-center justify-content-center text-80px">
-                                    <!-- Main-menu -->
-                                    <div class="main-menu d-none d-lg-block">
-                                        <nav>
-                                            <ul id="navigation">
-                                                <li><a class="redes" href=""><i class="far fa-envelope"></i> info@tensooh.com</a></li>
-                                                <li><a class="redes" href=""><i class="fas fa-tty"></i> (06) 2313021</a></li>
-                                                <li><a class="redes" href="#"><i class="fas fa-mobile-alt"></i> +593 0985453983</a></li>
-                                                <li><a class="redes" href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a class="redes" href=""><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a class="redes" href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                                <li><a class="redes" href="#"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <!-- Header End -->
     </header>
     <!-- header end -->
-
-
     @yield('content')
 
 
@@ -123,10 +107,67 @@
 
 
     <footer>
+        <section class="clients">
+            <div class="">
+                <div class="brand-title p-5 ">
+                    <center><span>Algunos de nuestros clientes</span></center>
+                </div>
+                <center>
+                    <div class="brand-area mt-0">
+                        <div class="">
+                            <div class="brand-active mb-0">
+                                <div class="single-brand">
+                                    <img src="{{ asset('img/parnners/1.jpg') }}" alt="">
+                                </div>
+                                <div class="single-brand">
+                                    <img src="{{ asset('img/parnners/2.jpg') }}" alt="">
+                                </div>
+                                <div class="single-brand">
+                                    <img src="{{ asset('img/parnners/3.jpg') }}" alt="">
+                                </div>
+                                <div class="single-brand">
+                                    <img src="{{ asset('img/parnners/4.jpg') }}" alt="">
+                                </div>
+                                <div class="single-brand">
+                                    <img src="{{ asset('img/parnners/5.jpg') }}" alt="">
+                                </div>
+                                <div class="single-brand">
+                                    <img src="{{ asset('img/parnners/6.jpg') }}" alt="">
+                                </div>
+                                <div class="single-brand">
+                                    <img src="{{ asset('img/parnners/7.jpg') }}" alt="">
+                                </div>
+                                <div class="single-brand">
+                                    <img src="{{ asset('img/parnners/8.jpg') }}" alt="">
+                                </div>
+                                <div class="single-brand">
+                                    <img src="{{ asset('img/parnners/9.jpg') }}" alt="">
+                                </div>
+                                <div class="single-brand">
+                                    <img src="{{ asset('img/parnners/10.jpg') }}" alt="">
+                                </div>
+                                <div class="single-brand">
+                                    <img src="{{ asset('img/parnners/11.jpg') }}" alt="">
+                                </div>
+                                <div class="single-brand">
+                                    <img src="{{ asset('img/parnners/12.jpg') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Brand Area Start -->
+                    </div>
+                </center>
+                <!-- Brand Area End -->
+            </div>
+        </section>
+
         <!--? Footer Start-->
         <div class="footer-area section-bg">
+
             <div class="container">
+
                 <div class="footer-top footer-padding">
+
                     <div class="row d-flex justify-content-between">
                         <div class="col-xl-3 col-lg-4 col-md-5 col-sm-8">
                             <div class="single-footer-caption mb-50">

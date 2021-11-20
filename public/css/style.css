@@ -3494,23 +3494,23 @@ hr {
 /* line 703, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_common.scss */
 
 .section-padding2 {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     /* line 703, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_common.scss */
     .section-padding2 {
-        padding-top: 200px;
-        padding-bottom: 200px;
+        padding-top: 40px;
+        padding-bottom: 20px;
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     /* line 703, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_common.scss */
     .section-padding2 {
-        padding-top: 200px;
-        padding-bottom: 200px;
+        padding-top: 40px;
+        padding-bottom: 20px;
     }
 }
 
@@ -3889,18 +3889,41 @@ hr {
 
 /* line 906, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_common.scss */
 
-.section-tittle span {
-    background: #000;
-    padding: 5px 15px 5px 15px;
-    border-radius: 0px 10px 0px 10px;
+.section-tittle h3 {
     font-family: 'Mochiy Pop One', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
-    margin-bottom: 22px;
-    color: #ffffff;
+    color: #000000;
     text-transform: capitalize;
     display: inline-block;
     letter-spacing: 0.05em;
+}
+
+.section-tittle h2 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    display: inline-block;
+    letter-spacing: 0.05em;
+}
+
+.section-tittle span {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 22px;
+    color: #000000;
+    text-transform: capitalize;
+    display: inline-block;
+    letter-spacing: 0.05em;
+}
+
+.section-tittle img {
+    height: auto;
+    width: 100%;
 }
 
 @media (max-width: 575px) {
@@ -4057,7 +4080,7 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* line 3, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
     .header-area {
-        box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+        box-shadow: 0 10px 15px rgba(255, 255, 255, 0.1);
     }
 }
 
@@ -4195,31 +4218,22 @@ hr {
     color: #F6B331;
 }
 
+.fondologo {
+    background-color: #000000;
+}
+
 
 /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
 
 .header-area .header-bottom {
-    padding: 0px 200px;
-    background: #000;
-}
-
-.header-bottom2 {
-    padding: 0px 200px;
-    background: #000;
-    height: 70px;
+    padding: 0px 0px;
+    background: rgb(0, 0, 0);
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
     .header-area .header-bottom {
-        padding: 0px 30px;
-    }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
-    /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
-    .header-area .header-bottom2 {
-        padding: 0px 30px;
+        padding: 0px 0px;
     }
 }
 
@@ -4230,24 +4244,10 @@ hr {
     }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
-    .header-area .header-bottom2 {
-        display: none;
-    }
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
     .header-area .header-bottom {
         padding: 15px 50px;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
-    .header-area .header-bottom2 {
-        display: none;
     }
 }
 
@@ -4258,24 +4258,10 @@ hr {
     }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
-    .header-area .header-bottom2 {
-        display: none;
-    }
-}
-
 @media (max-width: 575px) {
     /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
     .header-area .header-bottom {
         padding: 15px 0px;
-    }
-}
-
-@media (max-width: 575px) {
-    /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
-    .header-area .header-bottom2 {
-        display: none;
     }
 }
 
@@ -4307,7 +4293,7 @@ hr {
 /* line 123, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
 
 .main-header .main-menu ul li a {
-    color: #ffffff;
+    color: #757575;
     font-weight: 400;
     padding: 25px 19px;
     display: block;
@@ -4448,7 +4434,7 @@ hr {
 /* line 226, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
 
 .mobile_menu .slicknav_menu {
-    background: transparent;
+    background: #000;
     margin-top: 0px !important;
 }
 
@@ -4564,7 +4550,7 @@ hr {
 /* line 32, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
 
 .slider-area {
-    background-image: url(../img/hero/h1_hero.png);
+    background-image: url(../img/hero/hero1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -4606,11 +4592,13 @@ hr {
 /* line 49, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
 
 .slider-area .hero__caption h1 {
-    font-size: 170px;
-    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
     margin-bottom: 14px;
-    color: #ffffff;
-    text-shadow: 2px 0px 0px black, 0px 2px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: transparent;
     line-height: 1.2;
     text-transform: capitalize;
     margin-bottom: 29px;
@@ -4769,7 +4757,11 @@ hr {
 /* line 1, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_about.scss */
 
 .about-low-area {
-    position: relative;
+    height: auto;
+    background-image: url(../img/hero/bar2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5061,6 +5053,13 @@ hr {
 
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_services_section.scss */
+
+.service-area {
+    height: 700px;
+    background-image: url(../img/hero/hero3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .service-area .single-services {
     box-shadow: 0px 22px 57px 0px rgba(34, 41, 72, 0.05);
@@ -5355,6 +5354,24 @@ hr {
 
 
 /* line 1, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_footer.scss */
+
+.clients .brand-title {
+    background-color: #000000;
+}
+
+.single-brand img {
+    width: 30%;
+}
+
+.clients span {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #dca73a;
+    text-transform: capitalize;
+    display: inline-block;
+    letter-spacing: 0.05em;
+}
 
 .footer-area {
     background: #000000;
@@ -7115,6 +7132,13 @@ hr {
 
 .single-post-area .thumb .overlay-bg {
     background: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 991px) {
+    /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
+    .navi {
+        display: none;
+    }
 }
 
 
