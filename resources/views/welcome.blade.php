@@ -72,7 +72,7 @@
         <!--? service Area Start -->
         <section class="service-area">
             <div class="p-0 ml-5">
-                <div class="row justify-content-between">
+                <div class="justify-content-between">
                     <div class="col-lg-6 col-md-9">
                         <!-- Section Tittle -->
                         <div class="section-tittle section-tittle2 mb-50">
