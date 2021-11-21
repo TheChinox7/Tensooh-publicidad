@@ -171,7 +171,7 @@
         autoplay: true,
         speed: 500,
         arrows: false,
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [{
                 breakpoint: 1024,
@@ -184,6 +184,15 @@
             },
             {
                 breakpoint: 992,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false,
+                }
+            },
+            {
+                breakpoint: 900,
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 3,
@@ -218,8 +227,6 @@
     });
 
 
-    /* 10. WOW active */
-    new WOW().init();
 
     // 11. ---- Mailchimp js --------//
     function mailChimp() {

@@ -12,18 +12,10 @@
 
     <!-- CSS here -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/slicknav.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/flaticon.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/progressbar_barfiller.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/gijgo.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animated-headline.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
     <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/themify-icons.css') }}">
     <link rel="stylesheet" href="{{ asset('css/slick.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/nice-select.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 
@@ -61,13 +53,13 @@
                                     <div class="main-menu d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
-                                                <li><a href="{{ route('home') }}"><i
+                                                <li class="redesnav"><a href="{{ route('home') }}"><i
                                                             class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="{{ route('home') }}"><i class="fab fa-twitter"></i></a>
+                                                <li class="redesnav"><a href="{{ route('home') }}"><i class="fab fa-twitter"></i></a>
                                                 </li>
-                                                <li><a href="{{ route('home') }}"><i class="fab fa-youtube"></i></a>
+                                                <li class="redesnav"><a href="{{ route('home') }}"><i class="fab fa-youtube"></i></a>
                                                 </li>
-                                                <li><a href="{{ route('home') }}"><i
+                                                <li class="redesnav"><a href="{{ route('home') }}"><i
                                                             class="fab fa-instagram"></i></a></li>
                                                 <li><a href="{{ route('home') }}"></a></li>
                                                 <li><a href="{{ route('home') }}">Inicio</a></li>
@@ -254,38 +246,23 @@
     </div>
 
     <!-- JS here -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 
-    <script src="{{ asset('js/vendor/modernizr-3.5.0.min.js') }}"></script>
     <!-- Jquery, Popper, Bootstrap -->
     <script src="{{ asset('js/vendor/jquery-1.12.4.min.js') }}"></script>
-    <script src="{{ asset('js/popper.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <!-- Jquery Mobile Menu -->
     <script src="{{ asset('js/jquery.slicknav.min.js') }}"></script>
 
     <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('js/slick.min.js') }}"></script>
     <!-- One Page, Animated-HeadLin -->
-    <script src="{{ asset('js/wow.min.js') }}"></script>
     <script src="{{ asset('js/animated.headline.js') }}"></script>
-    <script src="{{ asset('js/jquery.magnific-popup.js') }}"></script>
 
     <!-- Date Picker -->
-    <script src="{{ asset('js/gijgo.min.js') }}"></script>
     <!-- Nice-select, sticky -->
-    <script src="{{ asset('js/jquery.nice-select.min.js') }}"></script>
     <script src="{{ asset('js/jquery.sticky.js') }}"></script>
     <!-- Progress -->
-    <script src="{{ asset('js/jquery.barfiller.js') }}"></script>
-
-    <!-- counter , waypoint,Hover Direction -->
-    <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
-    <script src="{{ asset('js/waypoints.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.countdown.min.js') }}"></script>
-    <script src="{{ asset('js/hover-direction-snake.min.js') }}"></script>
 
     <!-- contact js -->
     <script src="{{ asset('js/contact.js') }}"></script>

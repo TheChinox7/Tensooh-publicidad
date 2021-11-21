@@ -19,7 +19,7 @@
                                         <center><img class="mb-80" src="{{ asset('img/logo/logopubli.png') }}"
                                                 alt="logo tenshoo"></center>
                                         <center>
-                                            <h1>PUBLICIDAD OUT OF HOME</h1>
+                                            <MARQUEE DIRECTION=LEFT SCROLLAMOUNT=15> <h1>PUBLICIDAD OUT OF HOME</h1> </MARQUEE>
                                         </center>
                                     </div>
 

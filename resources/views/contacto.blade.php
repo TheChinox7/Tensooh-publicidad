@@ -1,7 +1,8 @@
 @extends('layouts.plantilla')
 
-@section('title', 'Sobre Nosotros - Tensooh Media')
+@section('title', 'Contacto - Tensooh Media')
 
+@section('content')
 <main>
     <!--? Hero Start -->
     <div class="slider-area2">
@@ -94,8 +95,5 @@
     </section>
     <!-- Contact Area End -->
 </main>
-
-
-@section('content')
 
 @endsection

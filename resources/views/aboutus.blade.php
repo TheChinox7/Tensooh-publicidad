@@ -2,6 +2,10 @@
 
 @section('title', 'Sobre Nosotros - Tensooh Media')
 
+
+
+
+@section('content')
 <main>
     <!--? Hero Start -->
     <div class="slider-area2">
@@ -98,8 +102,5 @@
     </section>
     <!-- About-2 Area End -->
 </main>
-
-
-@section('content')
 
 @endsection
