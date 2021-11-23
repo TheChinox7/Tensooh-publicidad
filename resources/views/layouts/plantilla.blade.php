@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <!-- ? Preloader Start
+    <!-- ? Preloader Start-->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
@@ -30,7 +30,7 @@
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
     <!-- Preloader Start -->
     <header>
         <!-- Header Start -->
@@ -53,14 +53,7 @@
                                     <div class="main-menu d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
-                                                <li class="redesnav"><a href="{{ route('home') }}"><i
-                                                            class="fab fa-facebook-f"></i></a></li>
-                                                <li class="redesnav"><a href="{{ route('home') }}"><i class="fab fa-twitter"></i></a>
-                                                </li>
-                                                <li class="redesnav"><a href="{{ route('home') }}"><i class="fab fa-youtube"></i></a>
-                                                </li>
-                                                <li class="redesnav"><a href="{{ route('home') }}"><i
-                                                            class="fab fa-instagram"></i></a></li>
+
                                                 <li><a href="{{ route('home') }}"></a></li>
                                                 <li><a href="{{ route('home') }}">Inicio</a></li>
                                                 <li><a href="{{ route('about') }}">Sobre Nosotros</a></li>
@@ -221,14 +214,6 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4">
-                            <!-- Footer Social -->
-                            <div class="footer-social f-right">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -236,7 +221,9 @@
         <!-- Footer End-->
     </footer>
 
-
+    <div id="instagram">
+        <a href="#"> <img src="{{ asset('img/elements/whatsapp1.png') }}" style="width: 100%;" alt=""></a>
+    </div>
     <div id="whatsapp">
         <a href="#"> <img src="{{ asset('img/elements/whatsapp1.png') }}" style="width: 100%;" alt=""></a>
     </div>
