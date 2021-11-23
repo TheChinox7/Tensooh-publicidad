@@ -222,7 +222,7 @@
     </footer>
 
     <div id="instagram">
-        <a href="#"> <img src="{{ asset('img/elements/whatsapp1.png') }}" style="width: 100%;" alt=""></a>
+        <a href="#"> <img src="{{ asset('img/elements/instagram.png') }}" style="width: 100%;" alt=""></a>
     </div>
     <div id="whatsapp">
         <a href="#"> <img src="{{ asset('img/elements/whatsapp1.png') }}" style="width: 100%;" alt=""></a>
