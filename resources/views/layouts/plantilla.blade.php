@@ -114,9 +114,6 @@
                                     <img src="{{ asset('img/parnners/4.jpg') }}" alt="">
                                 </div>
                                 <div class="single-brand">
-                                    <img src="{{ asset('img/parnners/5.jpg') }}" alt="">
-                                </div>
-                                <div class="single-brand">
                                     <img src="{{ asset('img/parnners/6.jpg') }}" alt="">
                                 </div>
                                 <div class="single-brand">
