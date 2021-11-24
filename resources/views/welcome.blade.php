@@ -13,7 +13,7 @@
                 <div class="single-slider slider-height d-flex align-items-center">
                     <div class="container align-items-center">
                         <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-8 col-sm-10">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                 <div class="hero__caption align-items-center">
                                     <div class="animated">
                                         <center><img class="mb-80" src="{{ asset('img/logo/logopubli.png') }}"
@@ -78,6 +78,14 @@
                         <div class="section-tittle section-tittle2 mb-50">
                             <h2 class="mb-35">Cobertura <br> Total <br> de Mercado</h2>
                         </div>
+                    </div>
+                    <div class="align-items-center">
+                        <div class="animated">
+                            <center><span>hola</span></center>
+                            <center><h1>PUBLICIDAD OUT OF HOME</h1>
+                            </center>
+                        </div>
+
                     </div>
 
                 </div>

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/themify-icons.css') }}">
 </head>
 
 <body>
@@ -66,7 +67,7 @@
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-30">
                                         <a href="https://wa.me/message/22BUM4VZA7HOO1"
-                                            class="btn header-btn">Whatsapp</a>
+                                            class="btnw header-btn"><i class="fab fa-whatsapp"></i> Whatsapp</a>
                                     </div>
                                 </div>
                             </div>
@@ -165,8 +166,8 @@
                                     </div>
                                 </div>
                                 <div class="footer-number">
-                                    <h4><span>+593 </span>0985256355</h4>
-                                    <p>prueba@prueba.com</p>
+                                    <h4><span>+593 </span> 985453983</h4>
+                                    <p>info@tensooh.com</p>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +184,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5">
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5 d-none">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
                                     <h4>Enlaces Rapidos</h4>

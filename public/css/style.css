@@ -517,7 +517,38 @@
             outline: 0;
             box-shadow: none;
         }
-        /* line 274, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_common.scss */
+
+        .btnw {
+            border: none;
+            padding: 18px 43px;
+            text-transform: capitalize;
+            border-radius: 0px 10px;
+            cursor: pointer;
+            color: #fff;
+            display: inline-block;
+            font-size: 16px;
+            background-size: 200%;
+            transition: 0.6s;
+            box-shadow: 0px 7px 21px 0px rgba(67, 216, 84, 0.5);
+            background-image: linear-gradient(to left, #43D854, #36a143, #43D854);
+            background-position: right;
+        }
+
+        .btnw:hover {
+            background-position: left;
+        }
+
+        .btnw.focus,
+        .btnw:focus {
+            outline: 0;
+            box-shadow: none;
+        }
+
+        .btnw.focus,
+        .btnw:focus {
+            outline: 0;
+            box-shadow: none;
+        }
 
         .about-btn {
             padding: 18px 43px;
@@ -525,6 +556,7 @@
         /* line 279, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_common.scss */
 
         .header-btn {
+            background-color: #43D854 !important;
             padding: 18px 43px;
         }
         /* line 282, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_common.scss */
@@ -3476,7 +3508,7 @@
         /* line 18, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
 
         .slider-height2 {
-            height: 580px;
+            height: 300px;
             background-size: cover;
         }
 
@@ -3949,10 +3981,34 @@
         /* line 2, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_services_section.scss */
 
         .service-area {
-            height: 700px;
+            height: 1000px;
             background-image: url(../img/hero/hero3.jpg);
             background-repeat: no-repeat;
             background-size: cover;
+        }
+
+        @media (max-width: 1500px) {
+            .service-area {
+                height: 700px;
+                background-image: url(../img/hero/hero3.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+
+        @media (max-width: 1050px) {
+            .service-area {
+                height: 500px;
+                background-image: url(../img/hero/hero3.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .service-area {
+                display: none;
+            }
         }
 
         .service-area .single-services {
@@ -6129,6 +6185,10 @@
             font-size: 27px;
             font-weight: 600;
             margin-bottom: 20px;
+        }
+
+        .contact-title img {
+            width: 10%;
         }
         /* line 53, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_contact.scss */
 
