@@ -16,7 +16,7 @@
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                 <div class="hero__caption align-items-center">
                                     <div class="animated">
-                                        <center><img class="mb-80" src="{{ asset('img/logo/logopubli.png') }}"
+                                        <center><img class="mb-80" src="{{ asset('img/logo/logopubliwhite.png') }}"
                                                 alt="logo tenshoo"></center>
                                         <center>
                                             <MARQUEE DIRECTION=LEFT SCROLLAMOUNT=15> <h1>PUBLICIDAD OUT OF HOME</h1> </MARQUEE>
@@ -60,7 +60,7 @@
                         <div class="about-caption mb-50">
                             <!-- Section Tittle -->
                             <div class="section-tittle mb-45">
-                                <img src="{{asset('img/hero/h1_hero.png')}}" alt="">
+                                <img src="{{asset('img/hero/copia2.png')}}" alt="">
                             </div>
 
                         </div>
