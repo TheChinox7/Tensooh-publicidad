@@ -57,17 +57,20 @@
 
                                                 <li><a href="{{ route('home') }}"></a></li>
                                                 <li><a href="{{ route('home') }}">Inicio</a></li>
-                                                <li><a href="{{ route('about') }}">Sobre Nosotros</a></li>
                                                 <li><a href="#">Trabajos <span
-                                                            class="badge badge-danger">pronto</span></a></li>
+                                                            class="badge badge-danger">Nuevo</span></a></li>
                                                 <li><a href="{{ route('contact') }}">Contacto</a></li>
                                             </ul>
                                         </nav>
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-30">
-                                        <a href="https://wa.me/message/22BUM4VZA7HOO1"
+                                        <a href="https://wa.me/message/22BUM4VZA7HOO1" target="_blank"
                                             class="btnw header-btn"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+                                    </div>
+                                    <div class="header-right-btn d-none d-lg-block ml-30">
+                                        <a href="https://www.instagram.com/tensooh.ec/" target="_blank"
+                                            class="btni header-btn"><i class="fab fa-whatsapp"></i> Instagram</a>
                                     </div>
                                 </div>
                             </div>
@@ -220,10 +223,10 @@
     </footer>
 
     <div id="instagram">
-        <a href="https://www.instagram.com/tensooh.ec/"> <img src="{{ asset('img/elements/instagram.png') }}" style="width: 100%;" alt=""></a>
+        <a href="https://www.instagram.com/tensooh.ec/" target="_blank"> <img src="{{ asset('img/elements/instagram.png') }}" style="width: 100%;" alt=""></a>
     </div>
     <div id="whatsapp">
-        <a href="#"> <img src="{{ asset('img/elements/whatsapp1.png') }}" style="width: 100%;" alt=""></a>
+        <a href="#" target="_blank"> <img src="{{ asset('img/elements/whatsapp1.png') }}" style="width: 100%;" alt=""></a>
     </div>
     <!-- Scroll Up -->
     <div id="back-top">
