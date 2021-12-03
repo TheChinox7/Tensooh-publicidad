@@ -26,7 +26,7 @@
 
             <div class="row">
                 <div class="col-12">
-                    <h1 class="contact-title"> <strong> <img src="{{asset('img/elements/burbuja-de-dialogo.png')}}" alt=""> Dejanos tus datos, </strong> y te contactamos.</h1>
+                    <h1 class="contact-title"> <strong> Dejanos tus datos, </strong> y te contactamos.</h1>
                 </div>
                 <div class="col-lg-8">
                     <form class="form-contact contact_form" action="{{route('mensaje')}}" method="post" id="contactForm"

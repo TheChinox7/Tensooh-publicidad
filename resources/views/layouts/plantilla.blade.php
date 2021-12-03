@@ -48,16 +48,14 @@
                                             alt=""></a>
                                 </div>
                             </div>
-                            <div class="col-xl-9 col-lg-9 justify-content-end bg-white m-0 navi">
+                            <div class="col-xl-9 col-9 justify-content-end bg-white m-0 navi">
                                 <div class="menu-wrapper  d-flex align-items-center justify-content-end">
                                     <!-- Main-menu -->
-                                    <div class="main-menu d-none d-lg-block">
+                                    <div class="main-menu d-sm-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
-
-                                                <li><a href="{{ route('home') }}"></a></li>
                                                 <li><a href="{{ route('home') }}">Inicio</a></li>
-                                                <li><a href="#">Trabajos <span
+                                                <li><a href="{{ route('about') }}">Trabajos <span
                                                             class="badge badge-danger">Nuevo</span></a></li>
                                                 <li><a href="{{ route('contact') }}">Contacto</a></li>
                                             </ul>
