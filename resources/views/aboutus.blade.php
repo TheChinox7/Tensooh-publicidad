@@ -2,105 +2,295 @@
 
 @section('title', 'Sobre Nosotros - Tensooh Media')
 
+@section('style')
 
+    <link href="{{ asset('slick/slick.css') }}" rel='stylesheet' />
+    <link href="{{ asset('galery/css/magnific-popup.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('galery/slick/slick-theme.css') }}" rel="stylesheet" />
+    <link href="{{ asset('galery/css/templatemo-real-dynamic.css') }} " rel="stylesheet" />
+@endsection
 
 
 @section('content')
-<main>
-    <!--? Hero Start -->
-    <div class="slider-area2">
-        <div class="slider-height2 d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="hero-cap hero-cap2 pt-15 text-center">
-                            <h2>Sobre Nosotros</h2>
+    <main>
+        <!--? Hero Start -->
+        <div class="slider-area2">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2 pt-15 text-center">
+                                <h2>Nuestros Trabajos</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Hero End -->
-    <!--? About 1 Start-->
-    <section class="about-low-area pt-20">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-xl-5 col-lg-6 col-md-9">
-                    <!-- about-img -->
-                    <div class="about-img">
-                        <img src="{{asset('img/gallery/about1.png')}}" alt="">
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-10">
-                    <div class="about-caption mb-50">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle mb-35">
-                            <span></span>
-                            <h2>We listen and work together for Great experience.</h2>
-                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p> -->
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et
-                            dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p>
-                    </div>
-                    <a href="about.html" class="btn">About US</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About  End-->
-    <!--? Brand Area Start -->
+        <!-- Hero End -->
 
-    <!--? About-2 Area Start -->
-    <section class="about-area2 testimonial-area section-padding30 fix">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class=" col-lg-6 col-md-9 col-sm-9">
-                    <div class="about-caption">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle mb-55">
-                            <h2>What our clint think about us!</h2>
+
+        <div class="tm-container bg-white">
+            <div class="container-fluid">
+                <div class="row tm-mb-1">
+                    <div class="col-12 tm-page-cols-container">
+                        <div class="tm-page-col-left">
+                            <ul class="tabs clearfix filters-button-group">
+                                <li>
+                                    <a href="#" class="active tm-category-link" data-filter=".category-1">
+                                        <div class="tm-thumbnails">
+                                            <img src="{{ asset('galery/img/gallery/gallery-item-01.jpg') }}" alt="Thumbnail"
+                                                class="tm-thumbnail">
+                                            <img src="{{ asset('galery/img/gallery/gallery-item-02.jpg') }}" alt="Thumbnail"
+                                                class="tm-thumbnail">
+                                            <img src="{{ asset('galery/img/gallery/gallery-item-03.jpg') }}" alt="Thumbnail"
+                                                class="tm-thumbnail">
+                                            <img src="{{ asset('galery/img/gallery/gallery-item-04.jpg') }}" alt="Thumbnail"
+                                                class="tm-thumbnail">
+                                        </div>
+                                        <span class="tm-category-label">Category One</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="tm-category-link" data-filter=".category-2">
+                                        <div class="tm-thumbnails">
+                                            <img src="{{ asset('galery/img/gallery/gallery-item-05.jpg') }}"
+                                                alt="Thumbnail" class="tm-thumbnail">
+                                            <img src="{{ asset('galery/img/gallery/gallery-item-02.jpg') }}"
+                                                alt="Thumbnail" class="tm-thumbnail">
+                                            <img src="{{ asset('galery/img/gallery/gallery-item-09.jpg') }}"
+                                                alt="Thumbnail" class="tm-thumbnail">
+                                            <img src="{{ asset('galery/img/gallery/gallery-item-11.jpg') }}"
+                                                alt="Thumbnail" class="tm-thumbnail">
+                                        </div>
+                                        <span class="tm-category-label">Second Category</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="tm-category-link" data-filter=".category-3">
+                                        <div class="tm-thumbnails">
+                                            <img src="{{ asset('galery/img/gallery/gallery-item-10.jpg') }}"
+                                                alt="Thumbnail" class="tm-thumbnail">
+                                            <img src="{{ asset('galery/img/gallery/gallery-item-07.jpg') }}"
+                                                alt="Thumbnail" class="tm-thumbnail">
+                                            <img src="{{ asset('galery/img/gallery/gallery-item-06.jpg') }}"
+                                                alt="Thumbnail" class="tm-thumbnail">
+                                            <img src="{{ asset('galery/img/gallery/gallery-item-04.jpg') }}"
+                                                alt="Thumbnail" class="tm-thumbnail">
+                                        </div>
+                                        <span class="tm-category-label">Category Three</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- Testimonial Start -->
-                        <div class="h1-testimonial-active">
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial">
-                                <div class="testimonial-caption">
-                                    <p>Brook presents your services with flexible, convenient and cdpose layouts. You
-                                        can select your favorite layouts & elements for cular ts with unlimited
-                                        ustomization possibilities. Pixel-perfect replica;ition of thei designers ijtls
-                                        intended csents your se.</p>
-                                    <div class="rattiong-caption">
-                                        <span>Jhon Smith<span>Gym Trainer</span> </span>
-                                    </div>
+                        <div class="tm-page-col-right">
+                            <div class="tm-gallery" id="tmGallery">
+                                <div class="tm-gallery-item category-1 category-3">
+                                    <figure class="effect-bubba">
+                                        <img src="{{ asset('galery/img/gallery/gallery-item-01.jpg') }}" alt="Gallery item"
+                                            class="img-fluid" />
+                                        <figcaption>
+                                            <h2>Ver <span>Imagen</span></h2>
+                                            <a href="{{ asset('galery/img/gallery/gallery-item-01.jpg') }}">View more</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="tm-gallery-item category-1 category-2">
+                                    <figure class="effect-bubba">
+                                        <img src="{{ asset('galery/img/gallery/gallery-item-02.jpg') }}" alt="Gallery item"
+                                            class="img-fluid" />
+                                        <figcaption>
+                                            <h2>Ver <span>Imagen</span></h2>
+                                            <a href="{{ asset('galery/img/gallery/gallery-item-02.jpg') }}">View more</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="tm-gallery-item category-1">
+                                    <figure class="effect-bubba">
+                                        <img src="{{ asset('galery/img/gallery/gallery-item-03.jpg') }}" alt="Gallery item"
+                                            class="img-fluid" />
+                                        <figcaption>
+                                            <h2>Ver <span>Imagen</span></h2>
+                                            <a href="{{ asset('galery/img/gallery/gallery-item-03.jpg') }}">View more</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="tm-gallery-item category-1 category-3">
+                                    <figure class="effect-bubba">
+                                        <img src="{{ asset('galery/img/gallery/gallery-item-04.jpg') }}" alt="Gallery item"
+                                            class="img-fluid" />
+                                        <figcaption>
+                                            <h2>Ver <span>Imagen</span></h2>
+                                            <a href="{{ asset('galery/img/gallery/gallery-item-04.jpg') }}">View more</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="tm-gallery-item category-1 category-2">
+                                    <figure class="effect-bubba">
+                                        <img src="{{ asset('galery/img/gallery/gallery-item-05.jpg') }}" alt="Gallery item"
+                                            class="img-fluid" />
+                                        <figcaption>
+                                            <h2>Ver <span>Imagen</span></h2>
+                                            <a href="{{ asset('galery/img/gallery/gallery-item-05.jpg') }}">View more</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="tm-gallery-item category-1 category-3">
+                                    <figure class="effect-bubba">
+                                        <img src="{{ asset('galery/img/gallery/gallery-item-06.jpg') }}" alt="Gallery item"
+                                            class="img-fluid" />
+                                        <figcaption>
+                                            <h2>Ver <span>Imagen</span></h2>
+                                            <a href="{{ asset('galery/img/gallery/gallery-item-06.jpg') }}">View more</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="tm-gallery-item category-1 category-3">
+                                    <figure class="effect-bubba">
+                                        <img src="{{ asset('galery/img/gallery/gallery-item-07.jpg') }}" alt="Gallery item"
+                                            class="img-fluid" />
+                                        <figcaption>
+                                            <h2>Ver <span>Imagen</span></h2>
+                                            <a href="{{ asset('galery/img/gallery/gallery-item-07.jpg') }}">View more</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="tm-gallery-item category-1 category-3">
+                                    <figure class="effect-bubba">
+                                        <img src="{{ asset('galery/img/gallery/gallery-item-08.jpg') }}" alt="Gallery item"
+                                            class="img-fluid" />
+                                        <figcaption>
+                                            <h2>Ver <span>Imagen</span></h2>
+                                            <a href="{{ asset('galery/img/gallery/gallery-item-08.jpg') }}">View more</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="tm-gallery-item category-1 category-2">
+                                    <figure class="effect-bubba">
+                                        <img src="{{ asset('galery/img/gallery/gallery-item-09.jpg') }}" alt="Gallery item"
+                                            class="img-fluid" />
+                                        <figcaption>
+                                            <h2>Ver <span>Imagen</span></h2>
+                                            <a href="{{ asset('galery/img/gallery/gallery-item-09.jpg') }}">View more</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="tm-gallery-item category-2 category-3">
+                                    <figure class="effect-bubba">
+                                        <img src="{{ asset('galery/img/gallery/gallery-item-10.jpg') }}" alt="Gallery item"
+                                            class="galery/img-fluid" />
+                                        <figcaption>
+                                            <h2>Ver <span>Imagen</span></h2>
+                                            <a href="{{ asset('galery/img/gallery/gallery-item-10.jpg') }}">View more</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="tm-gallery-item category-2">
+                                    <figure class="effect-bubba">
+                                        <img src="{{ asset('galery/img/gallery/gallery-item-11.jpg') }}" alt="Gallery item"
+                                            class="img-fluid" />
+                                        <figcaption>
+                                            <h2>Ver <span>Imagen</span></h2>
+                                            <a href="{{ asset('galery/img/gallery/gallery-item-11.jpg') }}">View more</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="tm-gallery-item category-2">
+                                    <figure class="effect-bubba">
+                                        <img src="{{ asset('galery/img/gallery/gallery-item-12.jpg') }}" alt="Gallery item"
+                                            class="img-fluid" />
+                                        <figcaption>
+                                            <h2>Ver <span>Imagen</span></h2>
+                                            <a href="{{ asset('galery/img/gallery/gallery-item-12.jpg') }}">View more</a>
+                                        </figcaption>
+                                    </figure>
                                 </div>
                             </div>
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial">
-                                <div class="testimonial-caption">
-                                    <p>Brook presents your services with flexible, convenient and cdpose layouts. You
-                                        can select your favorite layouts & elements for cular ts with unlimited
-                                        ustomization possibilities. Pixel-perfect replica;ition of thei designers ijtls
-                                        intended csents your se.</p>
-                                    <div class="rattiong-caption">
-                                        <span>Jhon Smith<span>Gym Trainer</span> </span>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-                        <!-- Testimonial End -->
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-11 col-sm-11">
-                    <!-- about-img -->
-                    <div class="about-img2">
-                        <img src="{{asset('img/gallery/about2.png')}}" alt="">
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- About-2 Area End -->
-</main>
+        <!--? Brand Area Start -->
+
+
+    </main>
+
+@section('scrips')
+
+    <script src="{{ asset('galery/js/parallax.min.js') }}"></script>
+    <script src="{{ asset('galery/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('galery/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('galery/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('galery/slick/slick.min.js') }}"></script>
+    <script src="{{ asset('galery/js/tooplate-script.js') }}"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            /* Isotope Gallery */
+            var $gallery = $(".tm-gallery").isotope({
+                itemSelector: ".tm-gallery-item",
+                filter: '.category-1'
+                // layoutMode: "fitRows"
+            });
+            // layout Isotope after each image loads
+            $gallery.imagesLoaded().progress(function() {
+                $gallery.isotope("layout");
+            });
+
+            $(".filters-button-group").on("click", "a", function() {
+                var filterValue = $(this).attr("data-filter");
+                $gallery.isotope({
+                    filter: filterValue
+                });
+            });
+
+            /* Categories */
+            $(".tabgroup > div").hide();
+            $(".tabgroup > div:first-of-type").show();
+            $(".tabs a").click(function(e) {
+                e.preventDefault();
+                var $this = $(this),
+                    tabgroup = "#" + $this.parents(".tabs").data("tabgroup"),
+                    others = $this
+                    .closest("li")
+                    .siblings()
+                    .children("a"),
+                    target = $this.attr("href");
+                others.removeClass("active");
+                $this.addClass("active");
+
+                // Scroll to tab content (for mobile)
+                if ($(window).width() < 992) {
+                    $("html, body").animate({
+                            scrollTop: $("#tmGallery").offset().top
+                        },
+                        200
+                    );
+                }
+            });
+
+            // Magnific Pop up
+            $('.tm-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+
+            // Testimonials carousel
+            $('.tm-carousel').slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+
+@endsection
 
 @endsection

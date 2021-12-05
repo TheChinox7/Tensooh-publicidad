@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="{{ asset('css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/themify-icons.css') }}">
+    @yield('style')
+
 </head>
 
 <body>
@@ -221,10 +223,12 @@
     </footer>
 
     <div id="instagram">
-        <a href="https://www.instagram.com/tensooh.ec/" target="_blank"> <img src="{{ asset('img/elements/instagram.png') }}" style="width: 100%;" alt=""></a>
+        <a href="https://www.instagram.com/tensooh.ec/" target="_blank"> <img
+                src="{{ asset('img/elements/instagram.png') }}" style="width: 100%;" alt=""></a>
     </div>
     <div id="whatsapp">
-        <a href="#" target="_blank"> <img src="{{ asset('img/elements/whatsapp1.png') }}" style="width: 100%;" alt=""></a>
+        <a href="#" target="_blank"> <img src="{{ asset('img/elements/whatsapp1.png') }}" style="width: 100%;"
+                alt=""></a>
     </div>
     <!-- Scroll Up -->
     <div id="back-top">
@@ -262,7 +266,7 @@
     <script src="{{ asset('js/main.js') }}"></script>
 
 
-
+    @yield('scrips')
 
 
 

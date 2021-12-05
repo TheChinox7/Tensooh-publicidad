@@ -71,28 +71,13 @@
         <!-- About  End-->
         <!--? service Area Start -->
         <section class="service-area">
-            <div class="p-0 ml-5">
-                <div class="justify-content-between">
-                    <div class="col-lg-6 col-md-9">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle section-tittle2 mb-50">
-                            <h2 class="mb-35">Cobertura <br> Total <br> de Mercado</h2>
-                        </div>
-                    </div>
-                    <div class="align-items-center">
-                        <div class="animated">
-                            <center><span>hola</span></center>
-                            <center><h1>PUBLICIDAD OUT OF HOME</h1>
-                            </center>
-                        </div>
+            <div class="imgservice">
+                <img class="img1"  src="{{asset('img/hero/hero3.jpg')}}" alt="">
 
-                    </div>
+                <img class="img2" src="{{asset('img/hero/hero3v.jpg')}}" alt="">
 
-                </div>
-                <!-- Brand Area Start -->
             </div>
-            <!-- Brand Area End -->
-            </div>
+
         </section>
         <!-- service Area End -->
     </main>

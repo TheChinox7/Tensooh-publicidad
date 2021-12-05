@@ -4030,14 +4030,23 @@
             }
         }
         /* line 2, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_services_section.scss */
-        
+        /*
         .service-area {
             height: 1000px;
             background-image: url(../img/hero/hero3.jpg);
             background-repeat: no-repeat;
             background-size: cover;
         }
-        
+
+        @media (max-width: 1700px) {
+            .service-area {
+                height: 900px;
+                background-image: url(../img/hero/hero3.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+
         @media (max-width: 1500px) {
             .service-area {
                 height: 700px;
@@ -4046,7 +4055,7 @@
                 background-size: cover;
             }
         }
-        
+
         @media (max-width: 1050px) {
             .service-area {
                 height: 500px;
@@ -4055,10 +4064,35 @@
                 background-size: cover;
             }
         }
-        
+
         @media (max-width: 800px) {
             .service-area {
+                height: 2000px;
+                background-image: url(../img/hero/hero3v.jpg);
+                background-repeat: no-repeat;
+            }
+        }*/
+        
+        .imgservice {
+            width: 100%;
+        }
+        
+        .imgservice .img1 {
+            width: 100%;
+        }
+        
+        @media (min-width: 600px) {
+            .imgservice .img2 {
                 display: none;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .imgservice .img1 {
+                display: none;
+            }
+            .imgservice .img2 {
+                width: 100%;
             }
         }
         
@@ -4339,6 +4373,12 @@
             display: inline-block;
             letter-spacing: 0.05em;
             text-transform: uppercase;
+        }
+        
+        @media (max-width: 450px) {
+            .clients span {
+                font-size: 16px;
+            }
         }
         
         .footer-area {
