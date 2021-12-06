@@ -80,7 +80,7 @@
                         <span class="contact-info__icon"><i class="ti-home"></i></span>
                         <div class="media-body">
                             <h3>Tena, Napo - Ecuador</h3>
-                            <p>Rosemead, CA 91770 <br> <a class="text-danger" href="https://goo.gl/maps/f8uScFWn5J3CLjZL9">ver en mapa <i class="fas fa-external-link-alt"></i></a></p>
+                            <p>Rosemead, CA 91770 <br> <a class="text-danger" href="https://goo.gl/maps/f8uScFWn5J3CLjZL9" target="_blank">ver en mapa <i class="fas fa-external-link-alt"></i></a></p>
                             <p> </p>
                         </div>
                     </div>

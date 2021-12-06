@@ -164,8 +164,7 @@
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p class="info1">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                            elit.</p>
+                                        <p class="info1">Grupo Tensooh | Publicidad Exterior</p>
                                     </div>
                                 </div>
                                 <div class="footer-number">
@@ -181,7 +180,7 @@
                                     <h4>Enlaces Rapidos</h4>
                                     <ul>
                                         <li><a href="{{ route('home') }}">Inicio</a></li>
-                                        <li><a href="{{ route('about') }}">Sobre Nosotros</a></li>
+                                        <li><a href="{{ route('about') }}">Trabajos</a></li>
                                         <li><a href="{{ route('contact') }}">Contacto</a></li>
                                     </ul>
                                 </div>
@@ -193,7 +192,7 @@
                                     <h4>Enlaces Rapidos</h4>
                                     <ul>
                                         <li><a href="{{ route('home') }}">Inicio</a></li>
-                                        <li><a href="{{ route('about') }}">Sobre Nosotros</a></li>
+                                        <li><a href="{{ route('about') }}">Trabajos</a></li>
                                         <li><a href="{{ route('contact') }}">Contacto</a></li>
                                     </ul>
                                 </div>
@@ -210,7 +209,7 @@
                                     <script>
                                         document.write(new Date().getFullYear());
                                     </script> Todos los derechos reservados | Tensooh Media | Desarrollado Por <a
-                                        href="https://colorlib.com" target="_blank">JinoxWeb</a>
+                                        href="http://jinox.rf.gd/" target="_blank">JinoxWeb</a>
                                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                 </p>
                             </div>
