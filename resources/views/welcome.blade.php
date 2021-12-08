@@ -45,14 +45,14 @@
                                 <h2>Tensooh</h2>
                                 <span>somos más que una empresa, somos una familia.!</span>
                                 <h4>Durante 15 años hemos realizado grandes proyectos de la mano de nuestros clientes, a
-                                    quienes agradesemos su confianza y compañia durante todo este tiempo.
+                                    quienes agradecemos su confianza y compañía durante todo este tiempo.
                                     <br> <br>
-                                    Estamos comprometidos con la realización de trabajos con los más altos estandares de
-                                    calidad en la publicidad OOH, caracterizandonos por ser una empresa solida y con
+                                    Estamos comprometidos con la realización de trabajos con los más altos estándares de
+                                    calidad en la publicidad OOH, caracterizándonos por ser una empresa sólida y con
                                     experiencia en el mercado nacional.
                                     <br> <br>
                                     Creamos nuestras propias estructuras con un equipo de creativos diseñadores,
-                                    departamento de logistica, impresión y metal mecanica.
+                                    departamento de logística, impresión y metal mecánica.
                                 </h4>
                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p> -->
                             </div>
