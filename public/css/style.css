@@ -3775,18 +3775,36 @@
         }
         /* line 1, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_about.scss */
         
+        .structure-area .img1 {
+            width: 100%;
+            height: auto;
+        }
+        
+        @media (min-width: 1512px) {
+            .structure-area .img1 {
+                display: none;
+            }
+        }
+        
         .about-low-area {
             height: auto;
             background-image: url(../img/hero/bar2.jpg);
             background-repeat: no-repeat;
             background-position: center center;
-            background-size: cover;
+            background-size: contain;
+            background-position: right;
+        }
+        
+        @media (max-width: 1512px) {
+            .about-low-area {
+                background-image: url();
+            }
         }
         
         @media only screen and (min-width: 768px) and (max-width: 991px) {
             /* line 4, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_about.scss */
             .about-low-area .about-caption {
-                padding-top: 50px;
+                padding-top: 0px;
             }
         }
         

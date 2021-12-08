@@ -38,9 +38,9 @@
                 <div class="row justify-content-between">
 
                     <div class="col-xl-6 col-lg-6 col-md-10">
-                        <div class="about-caption mb-50">
+                        <div class="about-caption">
                             <!-- Section Tittle -->
-                            <div class="section-tittle mb-45">
+                            <div class="section-tittle ">
                                 <h3>Somos</h3>
                                 <h2>Tensooh</h2>
                                 <span>somos más que una empresa, somos una familia.!</span>
@@ -57,10 +57,10 @@
                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p> -->
                             </div>
                         </div>
-                        <div class="about-caption mb-50">
+                        <div class="about-caption mb-0">
                             <!-- Section Tittle -->
                             <div class="section-tittle mb-45">
-                                <img src="{{asset('img/hero/copia2.png')}}" alt="">
+                                <img src="{{asset('img/hero/copia2.jpg')}}" alt="">
                             </div>
 
                         </div>
@@ -69,6 +69,14 @@
             </div>
         </section>
         <!-- About  End-->
+
+        <section >
+            <div class="structure-area">
+<img src="{{asset('img/hero/struc.jpg')}}" alt="" class="img1">
+
+            </div>
+
+        </section>
         <!--? service Area Start -->
         <section class="service-area">
             <div class="imgservice">
