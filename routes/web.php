@@ -1,8 +1,6 @@
 <?php
 
 use App\Http\Controllers\HomeController;
-use App\Mail\ContactoMaileble;
-use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,12 +22,5 @@ route::get('/contacto', [HomeController::class, 'contact'])->name('contact');
 
 route::post('/contacto', [HomeController::class, 'mensaje'])->name('mensaje');
 
-route::get('mensaje', function () {
-    $correo = new ContactoMaileble;
-    Mail::to('webtensooh@tensooh.com')->send($correo);
-
-    return "mensaje enviado";
-
-});
 
 Auth::routes();

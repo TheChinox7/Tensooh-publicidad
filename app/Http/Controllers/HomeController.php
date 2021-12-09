@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\ContatoMail;
-use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactoMaileble;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use SEO;
 
 class HomeController extends Controller
@@ -47,8 +47,10 @@ class HomeController extends Controller
 
     public function mensaje(Request $request)
     {
+        $correo = new ContactoMaileble($request->all());
+        Mail::to('info@tensooh.com')->send($correo);
 
-
+        return view('contacto');
 
     }
 }
