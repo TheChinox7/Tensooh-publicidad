@@ -7,11 +7,11 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class ContactMail extends Mailable
+class ContactoMaileble extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $subject="Informacion de contacto";
+    public $subjet = "Información De Contacto Sitio Web Tensooh";
 
     /**
      * Create a new message instance.
@@ -30,6 +30,6 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->view('view.mail.mailcontacto');
+        return $this->view('mail.mailcontacto');
     }
 }
