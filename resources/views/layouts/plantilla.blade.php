@@ -67,7 +67,7 @@
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-30">
-                                        <a href="https://wa.me/message/22BUM4VZA7HOO1" target="_blank"
+                                        <a href="https://api.whatsapp.com/message/FHJO6CYULYN2P1" target="_blank"
                                             class="btnw header-btn"><i class="fab fa-whatsapp"></i> Whatsapp</a>
                                     </div>
                                     <div class="header-right-btn d-none d-lg-block ml-30">
@@ -231,7 +231,7 @@
                 src="{{ asset('img/elements/instagram.png') }}" style="width: 100%;" alt=""></a>
     </div>
     <div id="whatsapp">
-        <a href="#" target="_blank"> <img src="{{ asset('img/elements/whatsapp1.png') }}" style="width: 100%;"
+        <a href="https://api.whatsapp.com/message/FHJO6CYULYN2P1" target="_blank"> <img src="{{ asset('img/elements/whatsapp1.png') }}" style="width: 100%;"
                 alt=""></a>
     </div>
     <!-- Scroll Up -->
