@@ -16,8 +16,7 @@
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                 <div class="hero__caption align-items-center">
                                     <div class="animated">
-                                        <center><img class="mb-80" src="{{ asset('img/logo/logopubliwhite.png') }}"
-                                                alt="logo tenshoo"></center>
+                                        <center></center>
                                         <center>
                                             <MARQUEE DIRECTION=LEFT SCROLLAMOUNT=15> <h1>PUBLICIDAD OUT OF HOME</h1> </MARQUEE>
                                         </center>
@@ -33,7 +32,7 @@
         </div>
         <!-- slider Area End-->
         <!--? About 1 Start-->
-        <section class="about-low-area section-padding2" id="about1">
+        <section class="about-low-area section-padding2 d-none" id="about1">
             <div class="container">
                 <div class="row justify-content-between">
 
@@ -70,13 +69,16 @@
         </section>
         <!-- About  End-->
 
-        <section >
-            <div class="structure-area">
-<img src="{{asset('img/hero/struc.jpg')}}" alt="" class="img1">
+        <section class="service-area">
+            <div class="imgservicefab">
+                <img class="img1"  src="{{asset('img/hero/struc.jpg')}}" alt="">
+
+                <img class="img2" src="{{asset('img/hero/strucv.jpg')}}" alt="">
 
             </div>
 
         </section>
+
         <!--? service Area Start -->
         <section class="service-area">
             <div class="imgservice">

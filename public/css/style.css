@@ -3299,13 +3299,17 @@
         }
         
         .fondologo {
-            background-color: #000000;
+            background-color: transparent;
         }
         /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
         
         .header-area .header-bottom {
             padding: 0px 0px;
-            background: rgb(0, 0, 0);
+            background: rgb(255, 255, 255);
+        }
+        
+        .header-area .header-bottom img {
+            width: 75%;
         }
         
         @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3318,28 +3322,37 @@
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
             /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
             .header-area .header-bottom {
-                padding: 0px 15px;
+                padding: 0px 0px;
+            }
+            .header-area .header-bottom img {
+                width: 100%;
             }
         }
         
         @media only screen and (min-width: 768px) and (max-width: 991px) {
             /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
             .header-area .header-bottom {
-                padding: 15px 50px;
+                background: rgb(0, 0, 0);
+                padding: 0px 0px;
             }
         }
         
         @media only screen and (min-width: 576px) and (max-width: 767px) {
             /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
             .header-area .header-bottom {
-                padding: 15px 20px;
+                background: rgb(0, 0, 0);
+                padding: 0px 0px;
             }
         }
         
         @media (max-width: 575px) {
             /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
             .header-area .header-bottom {
-                padding: 15px 0px;
+                background: rgb(0, 0, 0);
+                padding: 0px 0px;
+            }
+            .header-area .header-bottom img {
+                width: 75%;
             }
         }
         /* line 110, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
@@ -3445,7 +3458,7 @@
         /* line 194, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
         
         .header-sticky.sticky-bar {
-            background: rgb(0, 0, 0);
+            background: rgb(255, 255, 255);
         }
         /* line 200, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
         
@@ -3456,7 +3469,7 @@
         @media only screen and (min-width: 768px) and (max-width: 991px) {
             /* line 196, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
             .header-sticky.sticky-bar.sticky {
-                padding: 15px 0px;
+                /*padding: 15px 0px;*/
             }
         }
         
@@ -3627,7 +3640,7 @@
         
         .slider-area .hero__caption h1 {
             font-family: 'Open Sans', sans-serif;
-            font-size: 100px;
+            font-size: 150px;
             font-weight: bold;
             margin-bottom: 14px;
             color: transparent;
@@ -3640,7 +3653,7 @@
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
             /* line 49, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
             .slider-area .hero__caption h1 {
-                font-size: 60px;
+                font-size: 100px;
                 line-height: 1.2;
             }
         }
@@ -3648,7 +3661,7 @@
         @media only screen and (min-width: 768px) and (max-width: 991px) {
             /* line 49, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
             .slider-area .hero__caption h1 {
-                font-size: 50px;
+                font-size: 75px;
                 line-height: 1.2;
             }
         }
@@ -3656,7 +3669,7 @@
         @media only screen and (min-width: 576px) and (max-width: 767px) {
             /* line 49, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
             .slider-area .hero__caption h1 {
-                font-size: 35px;
+                font-size: 55px;
                 line-height: 1.2;
             }
         }
@@ -3664,7 +3677,7 @@
         @media (max-width: 575px) {
             /* line 49, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
             .slider-area .hero__caption h1 {
-                font-size: 35px;
+                font-size: 55px;
                 line-height: 1.2;
             }
         }
@@ -4090,6 +4103,29 @@
                 background-repeat: no-repeat;
             }
         }*/
+        
+        .imgservicefab {
+            width: 100%;
+        }
+        
+        .imgservicefab .img1 {
+            width: 100%;
+        }
+        
+        @media (min-width: 600px) {
+            .imgservicefab .img2 {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .imgservicefab .img1 {
+                display: none;
+            }
+            .imgservicefab .img2 {
+                width: 100%;
+            }
+        }
         
         .imgservice {
             width: 100%;

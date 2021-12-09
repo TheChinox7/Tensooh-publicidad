@@ -21,6 +21,6 @@ route::get('/trabajos',[HomeController::class, 'about'])->name('about');
 
 route::get('/contacto',[HomeController::class, 'contact'])->name('contact');
 
-route::get('/contactanos',[HomeController::class, 'mensaje'])->name('mensaje');
+route::post('/contactanos',[HomeController::class, 'mensaje'])->name('mensaje');
 
 Auth::routes();

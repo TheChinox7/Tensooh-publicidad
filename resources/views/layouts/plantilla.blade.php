@@ -48,19 +48,19 @@
                             <!-- Logo -->
                             <div class="col-xl-3 col-lg-3 m-0 p-0 fondologo">
                                 <div class="logo">
-                                    <a href="{{ route('home') }}"><img src="{{ asset('img/logo/logopubli.png') }}"
+                                    <a href="{{ route('home') }}"><img src="{{ asset('img/logo/logotensooh.jpg') }}"
                                             alt=""></a>
                                 </div>
                             </div>
-                            <div class="col-xl-9 col-9 justify-content-end bg-white m-0 navi">
+                            <div class="col-xl-9 col-9 justify-content-end m-0 navi">
                                 <div class="menu-wrapper  d-flex align-items-center justify-content-end">
                                     <!-- Main-menu -->
                                     <div class="main-menu d-sm-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
                                                 <li><a href="{{ route('home') }}">Inicio</a></li>
-                                                <li><a href="{{ route('about') }}">Trabajos <span
-                                                            class="badge badge-danger">Nuevo</span></a></li>
+                                                <li><a href="{{ route('home') }}">Trabajos <span
+                                                            class="badge badge-danger">Pronto</span></a></li>
                                                 <li><a href="{{ route('contact') }}">Contacto</a></li>
                                             </ul>
                                         </nav>
@@ -161,13 +161,16 @@
                             <div class="single-footer-caption mb-50">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="{{ route('home') }}"><img src="{{ asset('img/logo/logo.png') }}"
+                                    <a href="{{ route('home') }}"><img src="{{ asset('img/logo/logotensooh.jpg') }}"
                                             style="width: 75%;" alt=""></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
                                         <p class="info1">Grupo Tensooh | Publicidad Exterior</p>
                                     </div>
+                                </div>
+                                <div class="footer-number">
+                                    <h4><span>(06) </span> 2313021</h4>
                                 </div>
                                 <div class="footer-number">
                                     <h4><span>+593 </span> 985453983</h4>
@@ -182,7 +185,7 @@
                                     <h4>Enlaces Rapidos</h4>
                                     <ul>
                                         <li><a href="{{ route('home') }}">Inicio</a></li>
-                                        <li><a href="{{ route('about') }}">Trabajos</a></li>
+                                        <li><a href="{{ route('home') }}">Trabajos</a></li>
                                         <li><a href="{{ route('contact') }}">Contacto</a></li>
                                     </ul>
                                 </div>
@@ -194,7 +197,7 @@
                                     <h4>Enlaces Rapidos</h4>
                                     <ul>
                                         <li><a href="{{ route('home') }}">Inicio</a></li>
-                                        <li><a href="{{ route('about') }}">Trabajos</a></li>
+                                        <li><a href="{{ route('home') }}">Trabajos</a></li>
                                         <li><a href="{{ route('contact') }}">Contacto</a></li>
                                     </ul>
                                 </div>
