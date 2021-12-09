@@ -57,8 +57,8 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <input class="form-control" name="empresa" id="empresa" type="text"
-                                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Empresa'"
-                                            placeholder="Empresa">
+                                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Empresa (opcional)'"
+                                            placeholder="Empresa (opcional)">
                                     </div>
                                 </div>
 
@@ -72,14 +72,13 @@
 
                             </div>
                             <div class="form-group mt-3">
-                                <input type="submit">
 
                                 <button type="submit" class="button button-contactForm boxed-btn">Enviar</button>
                             </div>
                         </form>
                     </div>
                     <div class="col-lg-3 offset-lg-1">
-                        <div class="media contact-info">
+                        <div class="media contact-info d-none">
                             <span class="contact-info__icon"><i class="ti-home"></i></span>
                             <div class="media-body">
                                 <h3>Tena, Napo - Ecuador</h3>
