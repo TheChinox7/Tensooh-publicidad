@@ -6,10 +6,8 @@
 
 
     <main>
-        <!-- slider Area Start-->
         <div class="slider-area">
             <div class="slider-active">
-                <!-- Single Slider -->
                 <div class="single-slider slider-height d-flex align-items-center">
                     <div class="container align-items-center">
                         <div class="row">
@@ -27,18 +25,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- Single Slider -->
             </div>
         </div>
-        <!-- slider Area End-->
-        <!--? About 1 Start-->
         <section class="about-low-area section-padding2 d-none" id="about1">
             <div class="container">
                 <div class="row justify-content-between">
 
                     <div class="col-xl-6 col-lg-6 col-md-10">
                         <div class="about-caption">
-                            <!-- Section Tittle -->
                             <div class="section-tittle ">
                                 <h3>Somos</h3>
                                 <h2>Tensooh</h2>
@@ -57,7 +51,6 @@
                             </div>
                         </div>
                         <div class="about-caption mb-0">
-                            <!-- Section Tittle -->
                             <div class="section-tittle mb-45">
                                 <img src="{{asset('img/hero/copia2.jpg')}}" alt="">
                             </div>
@@ -67,7 +60,6 @@
                 </div>
             </div>
         </section>
-        <!-- About  End-->
 
         <section class="service-area">
             <div class="imgservicefab">
@@ -79,7 +71,6 @@
 
         </section>
 
-        <!--? service Area Start -->
         <section class="service-area">
             <div class="imgservice">
                 <img class="img1"  src="{{asset('img/hero/hero3.jpg')}}" alt="">
@@ -89,6 +80,5 @@
             </div>
 
         </section>
-        <!-- service Area End -->
     </main>
 @endsection

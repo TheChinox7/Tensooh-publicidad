@@ -4,7 +4,6 @@
 
 @section('content')
     <main>
-        <!--? Hero Start -->
         <div class="slider-area2">
             <div class="slider-height2 d-flex align-items-center">
                 <div class="container">
@@ -18,8 +17,6 @@
                 </div>
             </div>
         </div>
-        <!-- Hero End -->
-        <!--?  Contact Area start  -->
         <section class="contact-section pt-5">
             <div class="container">
 
@@ -107,7 +104,6 @@
                 </div>
             </div>
         </section>
-        <!-- Contact Area End -->
     </main>
 
 @endsection

@@ -13,7 +13,6 @@
 
 @section('content')
     <main>
-        <!--? Hero Start -->
         <div class="slider-area2">
             <div class="slider-height2 d-flex align-items-center">
                 <div class="container">
@@ -27,7 +26,6 @@
                 </div>
             </div>
         </div>
-        <!-- Hero End -->
 
 
         <div class="tm-container bg-white">
@@ -211,7 +209,6 @@
                 </div>
             </div>
         </div>
-        <!--? Brand Area Start -->
 
 
     </main>
